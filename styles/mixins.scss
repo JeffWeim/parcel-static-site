@@ -1,0 +1,13 @@
+// Add your mixins to this file
+
+@mixin tablet {
+	@media screen and (min-width: 768px) {
+		@content;
+	}
+}
+
+@mixin not-tablet {
+	@media screen and (min-width: 1025px) {
+		@content;
+	}
+}

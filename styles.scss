@@ -1,0 +1,9 @@
+// Global Styles
+@import './styles/reset.scss';
+@import './styles/mixins.scss';
+@import './styles/general.scss';
+@import './styles/vendor.scss';
+
+// Components
+@import './components/footer/footer.scss';
+@import './components/header/header.scss';

@@ -1,0 +1,16 @@
+{
+	"name": "parcel-static-site",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Jeff Weimer",
+	"license": "MIT",
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "NODE_ENV=production parcel build index.html --no-source-maps --public-url ./"
+	},
+	"devDependencies": {
+		"node-sass": "^4.11.0",
+		"parcel-bundler": "^1.12.3",
+		"posthtml-modules": "^0.4.2"
+	}
+}
