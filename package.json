@@ -9,7 +9,7 @@
 		"build": "NODE_ENV=production parcel build index.html --no-source-maps --public-url ./"
 	},
 	"devDependencies": {
-		"node-sass": "^4.12.0",
+		"node-sass": "^4.13.1",
 		"parcel-bundler": "^1.12.3",
 		"posthtml-modules": "^0.4.2"
 	}
